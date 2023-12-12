@@ -52,7 +52,7 @@ myString = "T";
         System.out.println(myString);
 
 //  TODO      4. Change your code to assign the value 3.14159 to myString. What happens?
-myString = 3.14159;
+//myString = 3.14159;
         System.out.println(myString);
 
 //  TODO      5. Declare an long variable named myNumber, but do not assign anything to it. Next try to print out myNumber to the console. What happens?
@@ -79,7 +79,7 @@ myString = 3.14159;
         int x = 5;
 System.out.println(x++);
 System.out.println(x);
-int x = 5;
+//int x = 5;
 System.out.println(++x);
 System.out.println(x);
 
@@ -107,21 +107,21 @@ String myClass = "This is string";
 
 //  TODO      13. Rewrite the following expressions using the relevant shorthand assignment operators:
 
-        int x = 4;
+//        int x = 4;
 x = x + 5;
         x += 5;
         System.out.println(x);
-int x = 3;
+//int x = 3;
 int y = 4;
-y *= x;
+//y *= x;
         System.out.println(y);
 y = y * x;
-int x = 10;
-int y = 2;
-x /= y;
+//int x = 10;
+//int y = 2;
+//x /= y;
         System.out.println(x);
 x = x / y;
-        y -= x;
+//        y -= x;
         System.out.println(y);
 y = y - x;
 
