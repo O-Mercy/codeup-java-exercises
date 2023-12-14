@@ -70,7 +70,7 @@ public class ControlFlowExercises {
             for (int i = 1; i <= userInt; i++) {
                 int square = i * i;
                 int cubed = i * i * i;
-                System.out.println("%-7s|%-9s|%06s\n", i, square, cubed);
+//                System.out.println("%-7s|%-9s|%06s\n", i, square, cubed);
             }
             System.out.println("Continue? [y/n]");
             confirm = scanner.next().equalsIgnoreCase("y");
@@ -96,7 +96,7 @@ public class ControlFlowExercises {
                 System.out.println("F");
             }
             System.out.println("Continue? [y/n]");
-            confirm = scanner.next().equalsIgnoreCase("y")
+            confirm = scanner.next().equalsIgnoreCase("y");
         }while(confirm);
         System.out.println("K, bye!");
     }
